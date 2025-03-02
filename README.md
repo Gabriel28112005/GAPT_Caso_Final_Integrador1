@@ -146,6 +146,7 @@ A continuación, se proporcionan sugerencias específicas para integrar pruebas 
     -	Captura de Excepciones:
         -	Implementar manejo de excepciones para errores en la decodificación o en la integridad de los mensajes.
 
+
 ## Implementación General de Pruebas y Manejo de Excepciones
 Para cada módulo, se deben desarrollar clases de prueba usando JUnit 5 que contengan métodos de prueba para cada funcionalidad importante. Estas pruebas deben ser capaces de ejecutarse automáticamente y verificar que tanto la lógica de negocio como el manejo de errores funcionen como se espera.
 El manejo de excepciones debe ser implementado de manera que el sistema pueda recuperarse de errores inesperados, proporcionando mensajes claros al usuario o tomando acciones correctivas sin detener completamente la operación del sistema.
