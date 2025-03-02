@@ -94,49 +94,59 @@ Los estudiantes presentarán un software que integre todos los módulos menciona
     -	Instrucciones de uso y casos de prueba para demostrar la funcionalidad.
 
 ## Objetivos de Aprendizaje:
-•	Aplicar conocimientos de algoritmos y estructuras de datos para resolver problemas complejos y reales.
-•	Desarrollar habilidades de integración de sistemas y pensamiento crítico.
-•	Fomentar la creatividad en la aplicación de conceptos de programación a escenarios no convencionales.
-•	Mejorar habilidades de trabajo en equipo, comunicación, y presentación.
+-	Aplicar conocimientos de algoritmos y estructuras de datos para resolver problemas complejos y reales.
+-	Desarrollar habilidades de integración de sistemas y pensamiento crítico.
+-	Fomentar la creatividad en la aplicación de conceptos de programación a escenarios no convencionales.
+-	Mejorar habilidades de trabajo en equipo, comunicación, y presentación.
+
+
 Esta misión espacial ficticia proporciona un contexto atractivo y complejo que requiere una comprensión profunda y aplicación de algoritmos y estructuras de datos, incentivando a los estudiantes a pensar más allá del aula y a vincular sus conocimientos con problemas del mundo real.
+
+
+## Sugerencias específicas: integras pruebas unitarias y manejo de excepciones.
 A continuación, se proporcionan sugerencias específicas para integrar pruebas unitarias y manejo de excepciones en los distintos módulos del proyecto:
-Cronómetro Cósmico
-•	Pruebas Unitarias:
-o	Verificar la correcta conversión de unidades de tiempo entre la Tierra y el nuevo planeta.
-o	Asegurar que los límites de representación de datos sean respetados para evitar overflow o underflow.
-•	Captura de Excepciones:
-o	Manejar excepciones para cálculos que excedan los límites de representación de datos.
-Recursos y Suministros
-•	Pruebas Unitarias:
-o	Comprobar que el cálculo de consumo de recursos es correcto para múltiples intervalos de tiempo.
-o	Validar que las alertas se activan correctamente cuando los niveles de recursos caen por debajo de los umbrales seguros.
-•	Captura de Excepciones:
-o	Prever y manejar casos en los que la entrada de datos sea incorrecta o insuficiente.
-Sistema de Alerta y Monitoreo
-•	Pruebas Unitarias:
-o	Testear la detección y notificación de eventos raros o críticos basados en algoritmos específicos.
-o	Asegurar que la descomposición de problemas complejos en factores más manejables sea correcta.
-•	Captura de Excepciones:
-o	Implementar manejo de excepciones para situaciones de monitoreo donde los datos sean anómalos o falten.
-Planificador de Tareas
-•	Pruebas Unitarias:
-o	Verificar la correcta asignación y distribución de tareas diarias entre los miembros de la tripulación.
-o	Asegurar que los cálculos de carga de trabajo se realicen adecuadamente.
-•	Captura de Excepciones:
-o	Manejar excepciones relacionadas con la asignación de tareas a miembros no disponibles o inexistentes.
-Navegador Estelar
-•	Pruebas Unitarias:
-o	Probar la correcta generación y optimización de rutas de exploración y expansión.
-o	Validar la adecuada representación del terreno y la planificación de construcciones.
-•	Captura de Excepciones:
-o	Prever errores en los cálculos de matrices, especialmente en la multiplicación de matrices para optimizar rutas.
-Comunicador Interplanetario
-•	Pruebas Unitarias:
-o	Confirmar que el análisis y traducción de mensajes se realiza correctamente.
-o	Testear la verificación de la integridad de los mensajes, incluyendo la detección de palíndromos.
-•	Captura de Excepciones:
-o	Implementar manejo de excepciones para errores en la decodificación o en la integridad de los mensajes.
-Implementación General de Pruebas y Manejo de Excepciones
+
+1. Cronómetro Cósmico:
+    -	Pruebas Unitarias:
+        -	Verificar la correcta conversión de unidades de tiempo entre la Tierra y el nuevo planeta.
+        -	Asegurar que los límites de representación de datos sean respetados para evitar overflow o underflow.
+    -	Captura de Excepciones:
+        -	Manejar excepciones para cálculos que excedan los límites de representación de datos.
+
+2. Recursos y Suministros:
+    -	Pruebas Unitarias:
+        -	Comprobar que el cálculo de consumo de recursos es correcto para múltiples intervalos de tiempo.
+        -	Validar que las alertas se activan correctamente cuando los niveles de recursos caen por debajo de los umbrales seguros.
+    -	Captura de Excepciones:
+        -	Prever y manejar casos en los que la entrada de datos sea incorrecta o insuficiente.
+
+3. Sistema de Alerta y Monitoreo
+    -	Pruebas Unitarias:
+        -	Testear la detección y notificación de eventos raros o críticos basados en algoritmos específicos.
+        -	Asegurar que la descomposición de problemas complejos en factores más manejables sea correcta.
+    -	Captura de Excepciones:
+        -	Implementar manejo de excepciones para situaciones de monitoreo donde los datos sean anómalos o falten.
+
+4. Planificador de Tareas
+    -	Pruebas Unitarias:
+        -	Verificar la correcta asignación y distribución de tareas diarias entre los miembros de la tripulación.
+        -	Asegurar que los cálculos de carga de trabajo se realicen adecuadamente.
+    -	Captura de Excepciones:
+        -	Manejar excepciones relacionadas con la asignación de tareas a miembros no disponibles o inexistentes.
+5. Navegador Estelar
+    -	Pruebas Unitarias:
+        -	Probar la correcta generación y optimización de rutas de exploración y expansión.
+        -	Validar la adecuada representación del terreno y la planificación de construcciones.
+    -	Captura de Excepciones:
+        -	Prever errores en los cálculos de matrices, especialmente en la multiplicación de matrices para optimizar rutas.
+6. Comunicador Interplanetario
+    -	Pruebas Unitarias:
+        -	Confirmar que el análisis y traducción de mensajes se realiza correctamente.
+        -	Testear la verificación de la integridad de los mensajes, incluyendo la detección de palíndromos.
+    -	Captura de Excepciones:
+        -	Implementar manejo de excepciones para errores en la decodificación o en la integridad de los mensajes.
+
+## Implementación General de Pruebas y Manejo de Excepciones
 Para cada módulo, se deben desarrollar clases de prueba usando JUnit 5 que contengan métodos de prueba para cada funcionalidad importante. Estas pruebas deben ser capaces de ejecutarse automáticamente y verificar que tanto la lógica de negocio como el manejo de errores funcionen como se espera.
 El manejo de excepciones debe ser implementado de manera que el sistema pueda recuperarse de errores inesperados, proporcionando mensajes claros al usuario o tomando acciones correctivas sin detener completamente la operación del sistema.
 
