@@ -44,4 +44,3 @@ public class Comunicador_Interplanetario {
         return new ArrayList<>(historialMensajes);
     }
 }
-
