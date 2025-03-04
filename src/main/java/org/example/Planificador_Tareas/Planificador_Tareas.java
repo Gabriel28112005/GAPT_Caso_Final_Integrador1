@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Planificador_Tareas;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -47,4 +47,3 @@ public class Planificador_Tareas {
         return productoEscalar;
     }
 }
-

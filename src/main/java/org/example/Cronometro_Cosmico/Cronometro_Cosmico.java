@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Cronometro_Cosmico;
 
 public class Cronometro_Cosmico {
     // Factores de conversión entre la Tierra y el nuevo planeta

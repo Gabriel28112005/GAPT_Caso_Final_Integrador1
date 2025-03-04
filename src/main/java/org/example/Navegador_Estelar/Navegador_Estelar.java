@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Navegador_Estelar;
 
 import java.util.Arrays;
 

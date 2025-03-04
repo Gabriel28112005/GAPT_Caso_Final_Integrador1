@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Recursos_Suministros;
 
 public class Recursos_Suministros {
     private double consumoDiarioAgua;
